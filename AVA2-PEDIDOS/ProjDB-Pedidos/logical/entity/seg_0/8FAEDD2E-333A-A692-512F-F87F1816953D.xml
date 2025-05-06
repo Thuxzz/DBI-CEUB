@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8FAEDD2E-333A-A692-512F-F87F1816953D" name="itemPedido">
+<createdBy>thiago.mfigueredo</createdBy>
+<createdTime>2025-05-06 00:33:15 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C5E1E960-E586-FFC0-182F-1A97E0C5DE6A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idItemPedido" id="4856D72C-5BFF-7009-3DEE-5A19958B76DF">
+<createdBy>thiago.mfigueredo</createdBy>
+<createdTime>2025-05-06 00:33:41 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C5E1E960-E586-FFC0-182F-1A97E0C5DE6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descProduto" id="2C90D2AE-D40B-D42E-E348-4F5738254F73">
+<createdBy>thiago.mfigueredo</createdBy>
+<createdTime>2025-05-06 00:34:19 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C5E1E960-E586-FFC0-182F-1A97E0C5DE6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigoProduto" id="8B16ADBF-6C5D-D025-AA9B-43291AC7A3A0">
+<createdBy>thiago.mfigueredo</createdBy>
+<createdTime>2025-05-06 00:34:48 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C5E1E960-E586-FFC0-182F-1A97E0C5DE6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade" id="656675F3-5834-E070-0D38-5A681670A285">
+<createdBy>thiago.mfigueredo</createdBy>
+<createdTime>2025-05-06 00:35:15 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C5E1E960-E586-FFC0-182F-1A97E0C5DE6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPedido" id="A75CFF4C-CAF8-3BA2-AD1E-4606E5CB9246">
+<createdBy>thiago.mfigueredo</createdBy>
+<createdTime>2025-05-06 00:35:19 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C5E1E960-E586-FFC0-182F-1A97E0C5DE6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPedido1" id="1F55540A-59AF-641C-6C3D-3654F5BC7886">
+<createdBy>thiago.mfigueredo</createdBy>
+<createdTime>2025-05-06 00:45:11 UTC</createdTime>
+<generatorID>4EC246C5-5D8C-8705-AE87-F4B9CB253088</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C5E1E960-E586-FFC0-182F-1A97E0C5DE6A" value="true"/>
+</engineerTo>
+<referedAttribute>8510DCEE-68D9-96C8-31CB-D03C1CDCB9AD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idProduto" id="1EE181D9-5202-BEC3-BD99-46717E30C2EB">
+<createdBy>thiago.mfigueredo</createdBy>
+<createdTime>2025-05-06 00:45:26 UTC</createdTime>
+<generatorID>944531AA-0D9D-CDF0-B323-2F5555BBAAF3</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C5E1E960-E586-FFC0-182F-1A97E0C5DE6A" value="true"/>
+</engineerTo>
+<referedAttribute>0F587781-913C-F434-4535-3C44BE1001DF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

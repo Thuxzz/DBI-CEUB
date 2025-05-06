@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3472D89E-4177-472A-1594-D804DAC57668" name="Cliente">
+<createdBy>thiago.mfigueredo</createdBy>
+<createdTime>2025-05-05 23:24:43 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C5E1E960-E586-FFC0-182F-1A97E0C5DE6A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="E24F7EAB-1785-0D77-FF37-8DE0878B1EFC">
+<createdBy>thiago.mfigueredo</createdBy>
+<createdTime>2025-05-05 23:26:44 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C5E1E960-E586-FFC0-182F-1A97E0C5DE6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeCliente" id="D34E2AEA-B2C8-DC21-CA78-450D23C4F712">
+<createdBy>thiago.mfigueredo</createdBy>
+<createdTime>2025-05-05 23:29:00 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C5E1E960-E586-FFC0-182F-1A97E0C5DE6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereço" id="05A4407A-6DD3-D572-CD4E-44FE9D1387AF">
+<createdBy>thiago.mfigueredo</createdBy>
+<createdTime>2025-05-05 23:30:42 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C5E1E960-E586-FFC0-182F-1A97E0C5DE6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="1F2B108D-D281-3C37-F602-3F27EC63A491">
+<createdBy>thiago.mfigueredo</createdBy>
+<createdTime>2025-05-05 23:31:32 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C5E1E960-E586-FFC0-182F-1A97E0C5DE6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E1EE1AE1-E8BC-46F2-E06B-A3C9CCFC4C71" name="Cliente PK">
+<createdBy>thiago.mfigueredo</createdBy>
+<createdTime>2025-05-05 23:28:55 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C5E1E960-E586-FFC0-182F-1A97E0C5DE6A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E24F7EAB-1785-0D77-FF37-8DE0878B1EFC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

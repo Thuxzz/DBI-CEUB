@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="13F1157A-495C-EF21-DED8-3A1D63282A7D">
+<createdBy>thiago.mfigueredo</createdBy>
+<createdTime>2025-05-06 00:40:52 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C5E1E960-E586-FFC0-182F-1A97E0C5DE6A" value="true"/>
+</engineerTo>
+<sourcePk>E1EE1AE1-E8BC-46F2-E06B-A3C9CCFC4C71</sourcePk>
+<targetPk>9423CA3D-6860-B1CD-30B1-F260026FB73E</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3472D89E-4177-472A-1594-D804DAC57668</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4E3817BD-C799-E4DD-4D36-02B729DCFDE2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
